@@ -1,59 +1,903 @@
 {
-  "primaryColor": "#D5E69A",
-  "secondaryColor": "#173E35",
-  "backgroundColor": "#F3F6F2",
-  "textColor": "#192621",
-  "accentColor": "#D5E69A",
-  "fontHeading": "Manrope",
-  "fontBody": "Source Sans 3",
-  "borderRadius": "0.5rem",
-  "logoText": "Raíz",
-  "logoImageUrl": null,
   "tone": "elegant",
+  "fontBody": "Source Sans 3",
+  "logoText": "Raíz",
   "brandbook": {
-    "version": 1,
-    "origin": "proposed",
-    "researchStatus": "not_requested",
-    "tokenSemanticsVersion": 1,
-    "positioning": "Estudio ficticio de yoga y pilates en Cali para encontrar una práctica consciente y reservar con claridad. Cuatro clases de ejemplo, dos salas y cuatro instructoras ficticias; una experiencia cercana sin credenciales, contactos o promesas inventadas.",
-    "voice": "Español sereno, cercano y concreto: «Encuentra tu práctica» y «Reserva tu espacio». Explicar saldo, espera y cobro presencial con claridad. Una advertencia breve por página identifica la demostración; los errores indican cómo recuperarse sin lenguaje técnico innecesario.",
     "motif": "Dos líneas de respiración que se abren desde una base horizontal sólida. Delimitan una esterilla vectorial y ritmos abstractos propios de cada práctica; esa base reúne selección y acción y continúa en configuración, revisión y confirmación. Sin cuerpos, rostros ni supuestas instalaciones.",
+    "pages": [
+      {
+        "id": "brand-page-1",
+        "title": "Brand guidelines",
+        "layout": "cover",
+        "summary": "Estudio ficticio de yoga y pilates en Cali para encontrar una práctica consciente y reservar con claridad.",
+        "examples": [
+          {
+            "text": "Vuelve a tu raíz",
+            "title": "Raíz"
+          },
+          {
+            "text": "Yoga y pilates · Cali · Guía de identidad",
+            "title": "Identity and digital experience"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-2",
+        "title": "The Brand",
+        "layout": "divider",
+        "summary": "Use this divider as a quiet pause: Lima background, Tinta text and one open breathing curve. Keep the name dominant and avoid badges or promotional claims.",
+        "examples": [
+          {
+            "text": "Yoga y pilates, con espacio para elegir.",
+            "title": "Encuentra tu práctica"
+          },
+          {
+            "text": "Place Raíz above the chapter title; leave at least 64 px between the text block and the curve.",
+            "title": "Divider composition"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-3",
+        "title": "Welcome",
+        "layout": "content",
+        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
+        "examples": [
+          {
+            "text": "Raíz es un negocio ficticio de ejemplo en Cali; oferta, precios, perfiles e imágenes son ilustrativos",
+            "title": "Demonstration notice"
+          },
+          {
+            "text": "This guide proposes original geometry, typography and layouts. No public identity research, professional endorsement or monetary valuation is claimed.",
+            "title": "Scope"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-4",
+        "title": "Index",
+        "layout": "content",
+        "summary": "Organize the manual into three reading bands. Align page ranges on a shared left edge and use Jade for navigation, not decorative numbering scattered across the page.",
+        "examples": [
+          {
+            "text": "Introduction, editorial intent, voice and the breathing-line identity.",
+            "title": "01–15 · Brand and logo"
+          },
+          {
+            "text": "Typography, hierarchy, composition, palette and image-free art direction.",
+            "title": "16–29 · Visual language"
+          },
+          {
+            "text": "Communication studies, booking states, studio materials and source notes.",
+            "title": "30–49 · Applications"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-5",
+        "title": "Defining",
+        "layout": "content",
+        "summary": "Build recognition around two opening lines and one stable base. Use that base to connect exploration with action; never split the homepage into unrelated image and sales halves.",
+        "examples": [
+          {
+            "text": "Encuentra tu práctica. Consulta el horario y elige una sesión.",
+            "title": "Vuelve a tu raíz"
+          },
+          {
+            "text": "Yoga suave and Ver horario y reservar sit along the same baseline, below the diagram rather than over the mat.",
+            "title": "Shared base"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-6",
+        "title": "Vision & Mission",
+        "layout": "content",
+        "summary": "Treat vision and mission as project intentions, not claims about an established organization. Express conscious discovery and clear booking through useful copy rather than grand promises.",
+        "examples": [
+          {
+            "text": "Encuentra una práctica por disciplina, nivel y duración.",
+            "title": "Discovery intent"
+          },
+          {
+            "text": "Revisa tu sesión, consulta tu saldo y confirma con claridad.",
+            "title": "Service intent"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-7",
+        "title": "Brand Values",
+        "layout": "content",
+        "summary": "Use calm, clarity and continuity as proposed design principles, not asserted corporate values. Demonstrate them through spacing, explicit states and an unchanged session context.",
+        "examples": [
+          {
+            "text": "One selected practice, one adjacent specification and one primary action; no competing promotional panels.",
+            "title": "Calm"
+          },
+          {
+            "text": "Lista de espera · Todavía no tienes un cupo.",
+            "title": "Clarity"
+          },
+          {
+            "text": "Keep Pilates control visible from its schedule row through review, conflict and confirmation.",
+            "title": "Continuity"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-8",
+        "title": "Tone of Voice",
+        "layout": "content",
+        "summary": "Write public copy in calm, direct Spanish using tú. Prefer specific verbs and short recovery messages. Avoid mystical claims, medical benefits, urgency and invented reassurance.",
+        "examples": [
+          {
+            "text": "Encuentra tu práctica · Ver horario y reservar",
+            "title": "Invitation"
+          },
+          {
+            "text": "Necesitas un crédito para reservar. Consulta los paquetes y vuelve a esta sesión.",
+            "title": "Insufficient balance"
+          },
+          {
+            "text": "Aún no podemos confirmar el resultado. Consulta el estado antes de intentarlo de nuevo.",
+            "title": "Uncertain result"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-9",
+        "title": "Logo",
+        "layout": "divider",
+        "summary": "Open the logo chapter on Hoja. Keep the original symbol on a Niebla support surface and typeset Raíz separately. The composition must feel open, never enclosed by a decorative badge.",
+        "examples": [
+          {
+            "text": "Yoga y pilates",
+            "title": "Raíz"
+          },
+          {
+            "text": "Use one centered lockup with 64 px of quiet space; do not fill the divider with repeated marks.",
+            "title": "Chapter study"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-10",
+        "title": "Logo overview",
+        "layout": "logo",
+        "summary": "The identity pairs an original two-line symbol with a real typographic name. The shared base signals continuity; the open upper field suggests breath without depicting a body or building.",
+        "examples": [
+          {
+            "text": "Set Raíz in Manrope 600. Preserve the acute accent over í and keep the four letters clearly separated.",
+            "title": "Name treatment"
+          },
+          {
+            "text": "The SVG contains only geometry. Render Raíz as typography beside it, never as an improvised replacement path.",
+            "title": "Two assets"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-11",
+        "title": "Primary logo",
+        "layout": "logo",
+        "summary": "Use a horizontal lockup for navigation and stationery. Align the symbol’s optical center with Raíz; keep the optional descriptor beneath the name, never inside the symbol.",
+        "examples": [
+          {
+            "text": "At a 40 px symbol canvas, set Raíz at 28 px with a 12 px gap. Keep the header near 52 px high on compact mobile screens.",
+            "title": "Header lockup"
+          },
+          {
+            "text": "Raíz / Yoga y pilates — use Source Sans 3 for the smaller descriptor and omit it when space is limited.",
+            "title": "Descriptor"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-12",
+        "title": "Logo Safezone",
+        "layout": "logo",
+        "summary": "Define one clearance unit as the symbol’s base thickness. Leave at least two units around its visible geometry and the full lockup; the SVG canvas is not a crop guide.",
+        "examples": [
+          {
+            "text": "Separate the Raíz lockup from Inicio by at least two clearance units; do not use the empty opening as space for a menu icon.",
+            "title": "Navigation spacing"
+          },
+          {
+            "text": "On Hoja or Tinta, extend the Niebla support beyond the safezone. Preserve both upper tips and the complete base.",
+            "title": "Colored support"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-13",
+        "title": "Color combinations",
+        "layout": "colors",
+        "summary": "Keep the master symbol Hoja. Use it directly on Niebla or place it on a Niebla support over colored fields. Use Tinta on Lima for actions and Niebla on Hoja for reversed text.",
+        "examples": [
+          {
+            "text": "Niebla field, Hoja symbol and Tinta Raíz wordmark; reserve Lima for Ver horario y reservar.",
+            "title": "Light header"
+          },
+          {
+            "text": "Hoja field with Niebla text and a Niebla-backed symbol. Do not recolor the symbol to create a reversed version.",
+            "title": "Dark chapter"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-14",
+        "title": "Brandmark",
+        "layout": "logo",
+        "summary": "Reuse the exact SVG geometry for standalone recognition. The two curved bands meet a horizontal base; do not add a letter, a lotus, a person or the practice mat to the core mark.",
+        "examples": [
+          {
+            "text": "Use the complete symbol for the app icon, favicon and social avatar; keep Raíz nearby in larger contexts.",
+            "title": "Standalone use"
+          },
+          {
+            "text": "The homepage may add a mat and practice rhythms as a separate illustration. Those elements never become part of the logo.",
+            "title": "Mark versus scene"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-15",
+        "title": "Logo misuse",
+        "layout": "logo",
+        "summary": "Preserve proportions, palette and open space. Never stretch the bands, remove the base, clip the tips or use the symbol as a mask for imagery.",
+        "examples": [
+          {
+            "text": "Do not write Raiz, RAIZ or Ráiz as the brand name. The correct business name is Raíz.",
+            "title": "Incorrect name"
+          },
+          {
+            "text": "No terracotta gradients, enclosed initials, shadows, lotus additions or controls placed across the symbol.",
+            "title": "Incorrect decoration"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-16",
+        "title": "Typography",
+        "layout": "divider",
+        "summary": "Use this divider to introduce a clean sans-serif system. Set the title in Manrope and supporting copy in Source Sans 3; let scale and space create elegance instead of ornamental lettering.",
+        "examples": [
+          {
+            "text": "Yoga y pilates. Elige una clase y consulta sus próximas sesiones.",
+            "title": "Espacio para tu práctica"
+          },
+          {
+            "text": "Use a short two-line heading on Lima with Tinta text; keep at least 40 px before the supporting sentence.",
+            "title": "Divider treatment"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-17",
+        "title": "Typography overview",
+        "layout": "type",
+        "summary": "Manrope leads names and headlines; Source Sans 3 carries reading and controls. Supplied distributable files cover the selected weights. Local hosting is the planned delivery method.",
+        "examples": [
+          {
+            "text": "Compara nivel, duración y tarifa ilustrativa antes de elegir una sesión.",
+            "title": "Encuentra tu práctica"
+          },
+          {
+            "text": "Set Encuentra tu práctica in Manrope 600 and its explanation in Source Sans 3 400. Use a system sans-serif only as a loading fallback.",
+            "title": "Family pairing"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-18",
+        "title": "Primary typeface",
+        "layout": "type",
+        "summary": "Use Manrope for Raíz, headlines and key quantities. Keep headings brief with −0.035em tracking; do not compress long schedule details into display typography.",
+        "examples": [
+          {
+            "text": "Encuentra tu práctica y reserva tu espacio.",
+            "title": "Vuelve a tu raíz"
+          },
+          {
+            "text": "Set the hero at 72 px on desktop and 36 px on phone, weight 600. Break after Vuelve when the available width requires it.",
+            "title": "Display specimen"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-19",
+        "title": "Typography",
+        "layout": "type",
+        "summary": "Use Manrope 500–600 for the website and 700 for Constructor manual headings. Source Sans 3 uses 400 for reading, 500 for labels and 600 for actions. Prefer upright styles.",
+        "examples": [
+          {
+            "text": "Comprueba la clase, la hora y la sala antes de confirmar.",
+            "title": "Revisa tu reserva"
+          },
+          {
+            "text": "Revisa tu reserva: Manrope 600. Sala Semilla: Source Sans 3 500. Confirmar reserva: Source Sans 3 600.",
+            "title": "Weight specimen"
+          },
+          {
+            "text": "Use weight, not italics or all caps, to distinguish Pago presencial pendiente from its explanation. Never synthesize extra-bold lettering.",
+            "title": "Style restraint"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-20",
+        "title": "Supporting type",
+        "layout": "type",
+        "summary": "Use Source Sans 3 for paragraphs, schedules, fields and status text. Body and inputs stay at least 16 px, navigation 14 px and secondary labels 12 px.",
+        "examples": [
+          {
+            "text": "Inicial · 60 min · $30.000 COP · Tarifa ilustrativa",
+            "title": "Yoga suave"
+          },
+          {
+            "text": "Align schedule times and occupancy figures consistently. Use tabular numerals for comparisons without shrinking explanatory labels.",
+            "title": "Readable data"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-21",
+        "title": "Hierarchy",
+        "layout": "type",
+        "summary": "Order each view as context, main decision, specification and action. Use a compact 36/24/16/12 px scale on phone; private references remain secondary to human-readable results.",
+        "examples": [
+          {
+            "text": "Tu cupo está confirmado. Consulta los detalles y el estado vigente en Mis clases.",
+            "title": "Reserva confirmada"
+          },
+          {
+            "text": "Lead with Reserva confirmada, then the saved class details, then Mis clases. Place the private reference below at secondary size.",
+            "title": "Result hierarchy"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-22",
+        "title": "Layouts",
+        "layout": "applications",
+        "summary": "Use an 8/16/24/40/64 px spacing rhythm and broad horizontal planes. Keep forms in normal flow; interior pages use compact scenes, never a repeated full-height hero.",
+        "examples": [
+          {
+            "text": "Revisa tu sesión y completa tus datos.",
+            "title": "Reserva tu espacio"
+          },
+          {
+            "text": "Budget about 52 px for header, 44 for title, 128 for scene, 100 for the shared base and 120 for the first field group.",
+            "title": "390 × 640 study"
+          },
+          {
+            "text": "Place the selected class above its fields with a 24 px gap. Avoid split heroes, repeated cards and floating action docks.",
+            "title": "Continuous composition"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-23",
+        "title": "Colors",
+        "layout": "divider",
+        "summary": "Use Lima as the chapter field and Tinta for its title. Introduce the palette with one broad Hoja band rather than equal-size decorative swatches.",
+        "examples": [
+          {
+            "text": "Niebla opens the space; Hoja anchors it; Lima draws attention to the next deliberate action.",
+            "title": "Una base compartida"
+          },
+          {
+            "text": "Keep the Raíz symbol on Niebla and reserve the largest uninterrupted area for Lima.",
+            "title": "Divider composition"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-24",
+        "title": "Colors overview",
+        "layout": "colors",
+        "summary": "Preserve all six supplied tokens. Niebla is the background, Hoja the surface, Lima the accent, Tinta the text and Jade the muted role; Advertencia is an additional semantic token.",
+        "examples": [
+          {
+            "text": "Niebla #F3F6F2 · Hoja #173E35 · Lima #D5E69A. Use Niebla for reading areas and Hoja for the shared action base.",
+            "title": "Core planes"
+          },
+          {
+            "text": "Tinta #192621 · Jade #347264 · Advertencia #944219. Pair warnings with explicit text, never color alone.",
+            "title": "Text and states"
+          },
+          {
+            "text": "Confirmar reserva uses Tinta on Lima. On Hoja surfaces, use Niebla for supporting text rather than muted Jade.",
+            "title": "Action pairing"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-25",
+        "title": "Using Tints",
+        "layout": "colors",
+        "summary": "Keep semantic colors at their exact hex values. Restrict transparent Jade decoration to Niebla fields; text, focus indicators and control borders must retain readable contrast.",
+        "examples": [
+          {
+            "text": "A 12% Jade breathing line may sit behind an empty margin, not behind Yoga suave or any input label.",
+            "title": "Quiet rhythm"
+          },
+          {
+            "text": "Use a solid Jade border around a Niebla field. A Lima button on Niebla needs a contrasting boundary, not a pale tint alone.",
+            "title": "Control distinction"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-26",
+        "title": "Graphic Elements",
+        "layout": "divider",
+        "summary": "Extend the open bands into a horizontal conceptual scene with a vector mat. Keep the base fixed when selection changes; move bands for 280 ms, or apply changes instantly with reduced motion.",
+        "examples": [
+          {
+            "text": "Yoga suave uses broad, spaced waves. Yoga fluido uses one continuous trajectory. Neither diagram gives anatomical instructions.",
+            "title": "Yoga references"
+          },
+          {
+            "text": "Pilates fundamentos uses parallel support lines. Pilates control uses precise intervals. Preserve each class’s reference throughout booking.",
+            "title": "Pilates references"
+          },
+          {
+            "text": "Use one brief entrance and selective reveals. Keyboard selection gets the same result; no ambient loops or directed scrolling.",
+            "title": "Motion restraint"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-27",
+        "title": "Icons",
+        "layout": "content",
+        "summary": "Use simple 24 px line icons with consistent 2 px strokes. Pair transactional icons with labels, provide 44 px targets and keep decorative breathing lines out of the control vocabulary.",
+        "examples": [
+          {
+            "text": "Pair a left arrow with Semana anterior and a right arrow with Semana siguiente. Give icon-only mobile controls equivalent accessible names.",
+            "title": "Schedule controls"
+          },
+          {
+            "text": "Reserva confirmada uses a check and text; En espera uses a clock and text. Never identify these states by green versus orange alone.",
+            "title": "State distinction"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-28",
+        "title": "Photography",
+        "layout": "applications",
+        "summary": "This project uses no photographs or image files. Replace photographic roles with conceptual SVG diagrams, color planes and typographic instructor plates; do not show portrait placeholders.",
+        "examples": [
+          {
+            "text": "Ana · Ver sesiones — use the name and a derived curve, with no portrait, biography or invented credential.",
+            "title": "Instructor plate"
+          },
+          {
+            "text": "A simplified vector mat sits inside the breathing field. It represents a practice concept, not the layout of a real studio.",
+            "title": "Practice scene"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-29",
+        "title": "Moodboard",
+        "layout": "applications",
+        "summary": "Build a material board from the proposed system itself, not borrowed wellness photography. The image-free direction is an adaptation to this project’s constraints, not an approved external reference.",
+        "examples": [
+          {
+            "text": "Líneas de respiración: open bands, a fixed base, Manrope headlines, Source Sans 3 details and a Niebla field.",
+            "title": "Selected direction"
+          },
+          {
+            "text": "Atlas corporal suggests mapping; patio de luz suggests planes and voids. Keep these as process concepts, not alternate public identities.",
+            "title": "Contrast references"
+          },
+          {
+            "text": "No cream/serif/terracotta wellness formula, posed bodies, stock foliage, imitation interiors or image-loading states.",
+            "title": "Exclude"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-30",
+        "title": "Applications",
+        "layout": "divider",
+        "summary": "Design studies: carry the same base, open geometry and concise Spanish across each format. These layouts propose applications; they do not establish implemented features or real merchandise.",
+        "examples": [
+          {
+            "text": "Explora las clases, consulta el horario y revisa tu elección.",
+            "title": "Una práctica, un siguiente paso"
+          },
+          {
+            "text": "Every study uses one dominant message, a stable lower alignment and the complete Raíz identity with clear space.",
+            "title": "Family resemblance"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-31",
+        "title": "Social media icons",
+        "layout": "logo",
+        "summary": "Design study: use the unchanged Hoja symbol on Niebla for avatars. Keep both tips inside circular crops; never replace the geometry with an R or shrink a descriptor into the icon.",
+        "examples": [
+          {
+            "text": "Yoga y pilates · Encuentra tu práctica",
+            "title": "Raíz"
+          },
+          {
+            "text": "Center the full square SVG canvas within the avatar. Leave its internal breathing space intact and keep the name in the adjacent profile label.",
+            "title": "Avatar composition"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-32",
+        "title": "Social media profiles",
+        "layout": "applications",
+        "summary": "Design study: pair the symbol avatar with a short Spanish bio and an open-band header. Do not fabricate a handle, follower count, contact channel or active social account.",
+        "examples": [
+          {
+            "text": "Yoga y pilates en Cali. Consulta clases, niveles y horarios.",
+            "title": "Encuentra tu práctica"
+          },
+          {
+            "text": "Use Raíz as the display name. Align the header’s open field with the bio; link to the planned website only when its destination exists.",
+            "title": "Profile structure"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-33",
+        "title": "Instagram posts",
+        "layout": "applications",
+        "summary": "Design study: use typographic posts with one class per frame. Put the practice diagram above a stable information base; show illustrative prices without suggesting single-class checkout.",
+        "examples": [
+          {
+            "text": "Inicial · 60 min · $30.000 COP. Tarifa ilustrativa; las reservas utilizan créditos de paquetes.",
+            "title": "Yoga suave"
+          },
+          {
+            "text": "Intermedio · 50 min · $35.000 COP. Encuentra sus sesiones en el horario.",
+            "title": "Pilates control"
+          },
+          {
+            "text": "Use a 40 px inset on a 1080 px square. Keep class name, metadata and action in the same positions across the series.",
+            "title": "Post grid"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-34",
+        "title": "Posters",
+        "layout": "applications",
+        "summary": "Design study: give one headline the upper field and one practice reference the center. Anchor the action below the illustration; omit unprovided addresses, dates and QR destinations.",
+        "examples": [
+          {
+            "text": "Yoga y pilates. Consulta las clases y encuentra tu próxima sesión.",
+            "title": "Vuelve a tu raíz"
+          },
+          {
+            "text": "Use Niebla with Tinta type, a Hoja lower band and one Lima action area reading Ver horario. Keep Raíz separate from the headline.",
+            "title": "Poster composition"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-35",
+        "title": "T shirts and totes",
+        "layout": "applications",
+        "summary": "Design study: use a single Hoja print on a Niebla-colored field. Preserve open geometry at production scale; these are identity studies, not products offered for sale.",
+        "examples": [
+          {
+            "text": "Raíz · Yoga y pilates",
+            "title": "Vuelve a tu raíz"
+          },
+          {
+            "text": "Place the symbol alone on the chest or tote center. Put the typeset name in a separate lower position, outside the symbol safezone.",
+            "title": "Placement study"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-36",
+        "title": "Practice materials",
+        "layout": "applications",
+        "summary": "Design study: adapt the packaging chapter to a printed class-information sleeve. Use a practice rhythm and clear metadata; do not imply merchandise, bundled equipment or anatomical guidance.",
+        "examples": [
+          {
+            "text": "Inicial · 50 min · $30.000 COP · Tarifa ilustrativa",
+            "title": "Pilates fundamentos"
+          },
+          {
+            "text": "Run parallel Jade lines above a Hoja base. Place Raíz on a Niebla support and the class specification on the reverse.",
+            "title": "Sleeve composition"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-37",
+        "title": "Studio arrival",
+        "layout": "applications",
+        "summary": "Design study: adapt pickup guidance to arrival and room orientation. Give each room a clear name and capacity; show no invented address, reception promise or map.",
+        "examples": [
+          {
+            "text": "Consulta la sala asignada en los detalles de tu reserva.",
+            "title": "Encuentra tu sala"
+          },
+          {
+            "text": "Capacidad de sala: 10 cupos.",
+            "title": "Semilla"
+          },
+          {
+            "text": "Capacidad de sala: 8 cupos. Use equal-size room labels and keep capacity subordinate to the name.",
+            "title": "Brote"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-38",
+        "title": "Reservation controls",
+        "layout": "applications",
+        "summary": "Design study for /reservar: use 44 px targets, 0.5rem corners and persistent labels. Review replaces editable controls with one specification. The final verb must distinguish booking from waiting.",
+        "examples": [
+          {
+            "text": "Se descontará un crédito al confirmar tu cupo.",
+            "title": "Confirmar reserva"
+          },
+          {
+            "text": "La sesión está llena. Entrar en espera no consume créditos ni confirma un cupo.",
+            "title": "Entrar en espera"
+          },
+          {
+            "text": "Revisar preserves values and focuses the first error. A changed session requires explicit review; never switch the class or confirm optimistically.",
+            "title": "Review behavior"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-39",
+        "title": "Reservation record",
+        "layout": "applications",
+        "summary": "Design study for /confirmacion: display only the authorized server result. Lead with its exact outcome, retain the saved specification and separate later operational changes from the original record.",
+        "examples": [
+          {
+            "text": "Tu cupo está confirmado. Consulta la especificación guardada y el estado vigente en Mis clases.",
+            "title": "Reserva confirmada"
+          },
+          {
+            "text": "Aún no tienes un cupo. Tu entrada en espera no ha descontado créditos.",
+            "title": "Estás en espera"
+          },
+          {
+            "text": "Tus clases se han acreditado. El pago presencial sigue pendiente.",
+            "title": "Paquete acreditado"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-40",
+        "title": "Class balance",
+        "layout": "applications",
+        "summary": "Design study for /mis-clases: replace rewards-card language with real package credits. Separate balance, pending payment, reservations and waiting; never imply points, membership or added expiry.",
+        "examples": [
+          {
+            "text": "Cada reserva confirmada utiliza un crédito. La espera no lo descuenta.",
+            "title": "Tu saldo de clases"
+          },
+          {
+            "text": "Antes del inicio puedes cancelar y recuperar un crédito. Confirma la cancelación para liberar tu cupo.",
+            "title": "Cancelar reserva"
+          },
+          {
+            "text": "Show server-derived amounts only. Refresh promotions in Mis clases; leaving the waitlist changes no balance and sends no external notification.",
+            "title": "Updated states"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-41",
+        "title": "Studio sign",
+        "layout": "applications",
+        "summary": "Design study: adapt restaurant signage to a yoga and pilates studio. Use the horizontal Raíz lockup with a small descriptor; keep the symbol on Niebla when the sign field is Hoja.",
+        "examples": [
+          {
+            "text": "Yoga y pilates",
+            "title": "Raíz"
+          },
+          {
+            "text": "Make Raíz readable before the descriptor. Use flat palette colors and clear space; show no invented facade, street number or opening hours.",
+            "title": "Sign hierarchy"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-42",
+        "title": "Booking website",
+        "layout": "applications",
+        "summary": "Design study: connect the nine planned screens through one selection and stable navigation. Availability and private results require real persistence; on data failure, show recovery rather than fabricated success.",
+        "examples": [
+          {
+            "text": "Consulta las sesiones por disciplina, nivel e instructora. Las clases llenas siguen visibles con opción de espera.",
+            "title": "Ver horario y reservar"
+          },
+          {
+            "text": "/, /clases, /horario, /instructoras, /paquetes and /mis-clases form the public navigation. Keep /duena discreet and its records private.",
+            "title": "Public route family"
+          },
+          {
+            "text": "/reservar and /confirmacion also serve their identifier-based links. Preserve context; Dueña groups occupancy, attendees, waiting, schedule and collections.",
+            "title": "Decision route family"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-43",
+        "title": "Favicon",
+        "layout": "logo",
+        "summary": "Design study: derive favicon and app icons from the same master SVG, not a redrawn miniature. Use a Niebla support and preserve the full opening; omit all wordmark text.",
+        "examples": [
+          {
+            "text": "Encuentra clases de yoga y pilates y consulta el horario.",
+            "title": "Raíz — Vuelve a tu raíz"
+          },
+          {
+            "text": "Use the complete 160 × 160 geometry for app/icon.svg and related icons. Center it consistently; do not thicken one branch or close the opening.",
+            "title": "Small-size treatment"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-44",
+        "title": "Stationery",
+        "layout": "applications",
+        "summary": "Design study: use a restrained header and a lower breathing-line rule. Keep body copy in Source Sans 3 with generous margins; never decorate a document with invented legal or contact details.",
+        "examples": [
+          {
+            "text": "Clases, horarios y detalles de tu selección.",
+            "title": "Una práctica con claridad"
+          },
+          {
+            "text": "Place Raíz at upper left, the document title 40 px below and a small Hoja base near the footer. Keep the main reading field Niebla.",
+            "title": "Document layout"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-45",
+        "title": "Business cards",
+        "layout": "applications",
+        "summary": "Design study: make a contact-free introduction card until real contact details are supplied. Use Raíz on the front and the four instructor names on the reverse without credentials or job titles.",
+        "examples": [
+          {
+            "text": "Ana · Lucía · Sara · Valentina",
+            "title": "Conoce a las instructoras"
+          },
+          {
+            "text": "Front: complete lockup on Niebla. Reverse: four names in a compact typographic column, with /instructoras as a planned website destination.",
+            "title": "Two-sided composition"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-46",
+        "title": "Package card",
+        "layout": "applications",
+        "summary": "Design study: replace gift-card mechanics with the planned package comparison. Align 4, 8 and 12 credits on one horizontal scale; do not imply gifting, transfer, expiry or online payment.",
+        "examples": [
+          {
+            "text": "4 clases · $110.000 COP / 8 clases · $200.000 COP / 12 clases · $270.000 COP. Precios ilustrativos.",
+            "title": "Paquetes para tu práctica"
+          },
+          {
+            "text": "La compra acredita tus clases de inmediato y deja el pago presencial pendiente. Los créditos no tienen caducidad añadida.",
+            "title": "Paga en el estudio"
+          },
+          {
+            "text": "After selection, show only the chosen quantity, server-authorized price and Comprar paquete. Recording payment must not imply a second credit allocation.",
+            "title": "Review composition"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-47",
+        "title": "Materials seal",
+        "layout": "applications",
+        "summary": "Design study: adapt the packaging seal to a paper-band closure for studio information. Use the symbol as identification, never as a certification, quality award or proof of payment.",
+        "examples": [
+          {
+            "text": "Encuentra tu práctica",
+            "title": "Raíz"
+          },
+          {
+            "text": "Use a Niebla square support on a Hoja paper band. Center the unchanged symbol with its safezone; place any descriptive copy outside the seal.",
+            "title": "Seal construction"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-48",
+        "title": "Customer support",
+        "layout": "applications",
+        "summary": "Design study: provide recovery beside the affected action, not an invented support channel. Preserve selection after errors; use calm text, linked field errors and deliberate status announcements.",
+        "examples": [
+          {
+            "text": "No sabemos aún si la operación se completó. Consulta su resultado antes de iniciar otra compra o reserva.",
+            "title": "Consulta el estado"
+          },
+          {
+            "text": "No pudimos mantener tu sesión aquí. Abre el sitio directamente para continuar; el catálogo público sigue disponible.",
+            "title": "Abre el sitio directamente"
+          },
+          {
+            "text": "La disponibilidad cambió. Revisa esta sesión antes de continuar o elige otra de forma explícita.",
+            "title": "Conservamos tu selección"
+          }
+        ]
+      },
+      {
+        "id": "brand-page-49",
+        "title": "Thank you",
+        "layout": "cover",
+        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
+        "examples": [
+          {
+            "text": "Una base compartida para explorar, elegir y revisar.",
+            "title": "Vuelve a tu raíz"
+          },
+          {
+            "text": "User-supplied Raíz plan: name, Cali context, catalog, policies, palette and motif. Supplied font resources: Manrope and Source Sans 3.",
+            "title": "Source list"
+          },
+          {
+            "text": "Original proposed symbol; separately typeset name. No public identity sources or external imagery used. Preserve the geometry and distinguish every transactional state.",
+            "title": "Colophon"
+          }
+        ]
+      }
+    ],
+    "voice": "Español sereno, cercano y concreto: «Encuentra tu práctica» y «Reserva tu espacio». Explicar saldo, espera y cobro presencial con claridad. Una advertencia breve por página identifica la demostración; los errores indican cómo recuperarse sin lenguaje técnico innecesario.",
+    "colors": [
+      {
+        "hex": "#F3F6F2",
+        "name": "Niebla",
+        "role": "background"
+      },
+      {
+        "hex": "#173E35",
+        "name": "Hoja",
+        "role": "surface"
+      },
+      {
+        "hex": "#D5E69A",
+        "name": "Lima",
+        "role": "accent"
+      },
+      {
+        "hex": "#192621",
+        "name": "Tinta",
+        "role": "text"
+      },
+      {
+        "hex": "#347264",
+        "name": "Jade",
+        "role": "muted"
+      }
+    ],
+    "origin": "proposed",
+    "markSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 160\"><path fill=\"#173E35\" d=\"M58 126C58 103 48 88 35 69C26 56 22 42 25 26L37 28C35 41 39 52 46 62C60 82 70 101 70 126Z\"/><path fill=\"#173E35\" d=\"M90 126C90 101 100 82 114 62C121 52 125 41 123 28L135 26C138 42 134 56 125 69C112 88 102 103 102 126Z\"/><rect x=\"42\" y=\"120\" width=\"76\" height=\"14\" rx=\"3\" fill=\"#173E35\"/></svg>",
     "sources": [
       "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap",
       "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap"
     ],
-    "colors": [
-      {
-        "role": "background",
-        "name": "Niebla",
-        "hex": "#F3F6F2"
-      },
-      {
-        "role": "surface",
-        "name": "Hoja",
-        "hex": "#173E35"
-      },
-      {
-        "role": "accent",
-        "name": "Lima",
-        "hex": "#D5E69A"
-      },
-      {
-        "role": "text",
-        "name": "Tinta",
-        "hex": "#192621"
-      },
-      {
-        "role": "muted",
-        "name": "Jade",
-        "hex": "#347264"
-      }
-    ],
+    "version": 1,
     "fontFaces": [
       {
-        "family": "Manrope",
-        "weight": "400",
         "url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F.ttf",
+        "family": "Manrope",
+        "weight": "400",
         "availableWeights": [
           "400",
           "500",
@@ -62,9 +906,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F.ttf",
         "family": "Manrope",
         "weight": "500",
-        "url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -73,9 +917,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F.ttf",
         "family": "Manrope",
         "weight": "600",
-        "url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -84,9 +928,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F.ttf",
         "family": "Manrope",
         "weight": "700",
-        "url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -95,9 +939,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky461EN.ttf",
         "family": "Source Sans 3",
         "weight": "400",
-        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky461EN.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -106,9 +950,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8KyK61EN.ttf",
         "family": "Source Sans 3",
         "weight": "500",
-        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8KyK61EN.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -117,9 +961,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxm7FEN.ttf",
         "family": "Source Sans 3",
         "weight": "600",
-        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxm7FEN.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -128,9 +972,9 @@
         ]
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxf7FEN.ttf",
         "family": "Source Sans 3",
         "weight": "700",
-        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxf7FEN.ttf",
         "availableWeights": [
           "400",
           "500",
@@ -139,860 +983,16 @@
         ]
       }
     ],
-    "markSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 160\"><path fill=\"#173E35\" d=\"M58 126C58 103 48 88 35 69C26 56 22 42 25 26L37 28C35 41 39 52 46 62C60 82 70 101 70 126Z\"/><path fill=\"#173E35\" d=\"M90 126C90 101 100 82 114 62C121 52 125 41 123 28L135 26C138 42 134 56 125 69C112 88 102 103 102 126Z\"/><rect x=\"42\" y=\"120\" width=\"76\" height=\"14\" rx=\"3\" fill=\"#173E35\"/></svg>",
-    "pages": [
-      {
-        "title": "Brand guidelines",
-        "summary": "Estudio ficticio de yoga y pilates en Cali para encontrar una práctica consciente y reservar con claridad.",
-        "examples": [
-          {
-            "title": "Raíz",
-            "text": "Vuelve a tu raíz"
-          },
-          {
-            "title": "Identity and digital experience",
-            "text": "Yoga y pilates · Cali · Guía de identidad"
-          }
-        ],
-        "id": "brand-page-1",
-        "layout": "cover"
-      },
-      {
-        "title": "The Brand",
-        "summary": "Use this divider as a quiet pause: Lima background, Tinta text and one open breathing curve. Keep the name dominant and avoid badges or promotional claims.",
-        "examples": [
-          {
-            "title": "Encuentra tu práctica",
-            "text": "Yoga y pilates, con espacio para elegir."
-          },
-          {
-            "title": "Divider composition",
-            "text": "Place Raíz above the chapter title; leave at least 64 px between the text block and the curve."
-          }
-        ],
-        "id": "brand-page-2",
-        "layout": "divider"
-      },
-      {
-        "title": "Welcome",
-        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
-        "examples": [
-          {
-            "title": "Demonstration notice",
-            "text": "Raíz es un negocio ficticio de ejemplo en Cali; oferta, precios, perfiles e imágenes son ilustrativos"
-          },
-          {
-            "title": "Scope",
-            "text": "This guide proposes original geometry, typography and layouts. No public identity research, professional endorsement or monetary valuation is claimed."
-          }
-        ],
-        "id": "brand-page-3",
-        "layout": "content"
-      },
-      {
-        "title": "Index",
-        "summary": "Organize the manual into three reading bands. Align page ranges on a shared left edge and use Jade for navigation, not decorative numbering scattered across the page.",
-        "examples": [
-          {
-            "title": "01–15 · Brand and logo",
-            "text": "Introduction, editorial intent, voice and the breathing-line identity."
-          },
-          {
-            "title": "16–29 · Visual language",
-            "text": "Typography, hierarchy, composition, palette and image-free art direction."
-          },
-          {
-            "title": "30–49 · Applications",
-            "text": "Communication studies, booking states, studio materials and source notes."
-          }
-        ],
-        "id": "brand-page-4",
-        "layout": "content"
-      },
-      {
-        "title": "Defining",
-        "summary": "Build recognition around two opening lines and one stable base. Use that base to connect exploration with action; never split the homepage into unrelated image and sales halves.",
-        "examples": [
-          {
-            "title": "Vuelve a tu raíz",
-            "text": "Encuentra tu práctica. Consulta el horario y elige una sesión."
-          },
-          {
-            "title": "Shared base",
-            "text": "Yoga suave and Ver horario y reservar sit along the same baseline, below the diagram rather than over the mat."
-          }
-        ],
-        "id": "brand-page-5",
-        "layout": "content"
-      },
-      {
-        "title": "Vision & Mission",
-        "summary": "Treat vision and mission as project intentions, not claims about an established organization. Express conscious discovery and clear booking through useful copy rather than grand promises.",
-        "examples": [
-          {
-            "title": "Discovery intent",
-            "text": "Encuentra una práctica por disciplina, nivel y duración."
-          },
-          {
-            "title": "Service intent",
-            "text": "Revisa tu sesión, consulta tu saldo y confirma con claridad."
-          }
-        ],
-        "id": "brand-page-6",
-        "layout": "content"
-      },
-      {
-        "title": "Brand Values",
-        "summary": "Use calm, clarity and continuity as proposed design principles, not asserted corporate values. Demonstrate them through spacing, explicit states and an unchanged session context.",
-        "examples": [
-          {
-            "title": "Calm",
-            "text": "One selected practice, one adjacent specification and one primary action; no competing promotional panels."
-          },
-          {
-            "title": "Clarity",
-            "text": "Lista de espera · Todavía no tienes un cupo."
-          },
-          {
-            "title": "Continuity",
-            "text": "Keep Pilates control visible from its schedule row through review, conflict and confirmation."
-          }
-        ],
-        "id": "brand-page-7",
-        "layout": "content"
-      },
-      {
-        "title": "Tone of Voice",
-        "summary": "Write public copy in calm, direct Spanish using tú. Prefer specific verbs and short recovery messages. Avoid mystical claims, medical benefits, urgency and invented reassurance.",
-        "examples": [
-          {
-            "title": "Invitation",
-            "text": "Encuentra tu práctica · Ver horario y reservar"
-          },
-          {
-            "title": "Insufficient balance",
-            "text": "Necesitas un crédito para reservar. Consulta los paquetes y vuelve a esta sesión."
-          },
-          {
-            "title": "Uncertain result",
-            "text": "Aún no podemos confirmar el resultado. Consulta el estado antes de intentarlo de nuevo."
-          }
-        ],
-        "id": "brand-page-8",
-        "layout": "content"
-      },
-      {
-        "title": "Logo",
-        "summary": "Open the logo chapter on Hoja. Keep the original symbol on a Niebla support surface and typeset Raíz separately. The composition must feel open, never enclosed by a decorative badge.",
-        "examples": [
-          {
-            "title": "Raíz",
-            "text": "Yoga y pilates"
-          },
-          {
-            "title": "Chapter study",
-            "text": "Use one centered lockup with 64 px of quiet space; do not fill the divider with repeated marks."
-          }
-        ],
-        "id": "brand-page-9",
-        "layout": "divider"
-      },
-      {
-        "title": "Logo overview",
-        "summary": "The identity pairs an original two-line symbol with a real typographic name. The shared base signals continuity; the open upper field suggests breath without depicting a body or building.",
-        "examples": [
-          {
-            "title": "Name treatment",
-            "text": "Set Raíz in Manrope 600. Preserve the acute accent over í and keep the four letters clearly separated."
-          },
-          {
-            "title": "Two assets",
-            "text": "The SVG contains only geometry. Render Raíz as typography beside it, never as an improvised replacement path."
-          }
-        ],
-        "id": "brand-page-10",
-        "layout": "logo"
-      },
-      {
-        "title": "Primary logo",
-        "summary": "Use a horizontal lockup for navigation and stationery. Align the symbol’s optical center with Raíz; keep the optional descriptor beneath the name, never inside the symbol.",
-        "examples": [
-          {
-            "title": "Header lockup",
-            "text": "At a 40 px symbol canvas, set Raíz at 28 px with a 12 px gap. Keep the header near 52 px high on compact mobile screens."
-          },
-          {
-            "title": "Descriptor",
-            "text": "Raíz / Yoga y pilates — use Source Sans 3 for the smaller descriptor and omit it when space is limited."
-          }
-        ],
-        "id": "brand-page-11",
-        "layout": "logo"
-      },
-      {
-        "title": "Logo Safezone",
-        "summary": "Define one clearance unit as the symbol’s base thickness. Leave at least two units around its visible geometry and the full lockup; the SVG canvas is not a crop guide.",
-        "examples": [
-          {
-            "title": "Navigation spacing",
-            "text": "Separate the Raíz lockup from Inicio by at least two clearance units; do not use the empty opening as space for a menu icon."
-          },
-          {
-            "title": "Colored support",
-            "text": "On Hoja or Tinta, extend the Niebla support beyond the safezone. Preserve both upper tips and the complete base."
-          }
-        ],
-        "id": "brand-page-12",
-        "layout": "logo"
-      },
-      {
-        "title": "Color combinations",
-        "summary": "Keep the master symbol Hoja. Use it directly on Niebla or place it on a Niebla support over colored fields. Use Tinta on Lima for actions and Niebla on Hoja for reversed text.",
-        "examples": [
-          {
-            "title": "Light header",
-            "text": "Niebla field, Hoja symbol and Tinta Raíz wordmark; reserve Lima for Ver horario y reservar."
-          },
-          {
-            "title": "Dark chapter",
-            "text": "Hoja field with Niebla text and a Niebla-backed symbol. Do not recolor the symbol to create a reversed version."
-          }
-        ],
-        "id": "brand-page-13",
-        "layout": "colors"
-      },
-      {
-        "title": "Brandmark",
-        "summary": "Reuse the exact SVG geometry for standalone recognition. The two curved bands meet a horizontal base; do not add a letter, a lotus, a person or the practice mat to the core mark.",
-        "examples": [
-          {
-            "title": "Standalone use",
-            "text": "Use the complete symbol for the app icon, favicon and social avatar; keep Raíz nearby in larger contexts."
-          },
-          {
-            "title": "Mark versus scene",
-            "text": "The homepage may add a mat and practice rhythms as a separate illustration. Those elements never become part of the logo."
-          }
-        ],
-        "id": "brand-page-14",
-        "layout": "logo"
-      },
-      {
-        "title": "Logo misuse",
-        "summary": "Preserve proportions, palette and open space. Never stretch the bands, remove the base, clip the tips or use the symbol as a mask for imagery.",
-        "examples": [
-          {
-            "title": "Incorrect name",
-            "text": "Do not write Raiz, RAIZ or Ráiz as the brand name. The correct business name is Raíz."
-          },
-          {
-            "title": "Incorrect decoration",
-            "text": "No terracotta gradients, enclosed initials, shadows, lotus additions or controls placed across the symbol."
-          }
-        ],
-        "id": "brand-page-15",
-        "layout": "logo"
-      },
-      {
-        "title": "Typography",
-        "summary": "Use this divider to introduce a clean sans-serif system. Set the title in Manrope and supporting copy in Source Sans 3; let scale and space create elegance instead of ornamental lettering.",
-        "examples": [
-          {
-            "title": "Espacio para tu práctica",
-            "text": "Yoga y pilates. Elige una clase y consulta sus próximas sesiones."
-          },
-          {
-            "title": "Divider treatment",
-            "text": "Use a short two-line heading on Lima with Tinta text; keep at least 40 px before the supporting sentence."
-          }
-        ],
-        "id": "brand-page-16",
-        "layout": "divider"
-      },
-      {
-        "title": "Typography overview",
-        "summary": "Manrope leads names and headlines; Source Sans 3 carries reading and controls. Supplied distributable files cover the selected weights. Local hosting is the planned delivery method.",
-        "examples": [
-          {
-            "title": "Encuentra tu práctica",
-            "text": "Compara nivel, duración y tarifa ilustrativa antes de elegir una sesión."
-          },
-          {
-            "title": "Family pairing",
-            "text": "Set Encuentra tu práctica in Manrope 600 and its explanation in Source Sans 3 400. Use a system sans-serif only as a loading fallback."
-          }
-        ],
-        "id": "brand-page-17",
-        "layout": "type"
-      },
-      {
-        "title": "Primary typeface",
-        "summary": "Use Manrope for Raíz, headlines and key quantities. Keep headings brief with −0.035em tracking; do not compress long schedule details into display typography.",
-        "examples": [
-          {
-            "title": "Vuelve a tu raíz",
-            "text": "Encuentra tu práctica y reserva tu espacio."
-          },
-          {
-            "title": "Display specimen",
-            "text": "Set the hero at 72 px on desktop and 36 px on phone, weight 600. Break after Vuelve when the available width requires it."
-          }
-        ],
-        "id": "brand-page-18",
-        "layout": "type"
-      },
-      {
-        "title": "Typography",
-        "summary": "Use Manrope 500–600 for the website and 700 for Constructor manual headings. Source Sans 3 uses 400 for reading, 500 for labels and 600 for actions. Prefer upright styles.",
-        "examples": [
-          {
-            "title": "Revisa tu reserva",
-            "text": "Comprueba la clase, la hora y la sala antes de confirmar."
-          },
-          {
-            "title": "Weight specimen",
-            "text": "Revisa tu reserva: Manrope 600. Sala Semilla: Source Sans 3 500. Confirmar reserva: Source Sans 3 600."
-          },
-          {
-            "title": "Style restraint",
-            "text": "Use weight, not italics or all caps, to distinguish Pago presencial pendiente from its explanation. Never synthesize extra-bold lettering."
-          }
-        ],
-        "id": "brand-page-19",
-        "layout": "type"
-      },
-      {
-        "title": "Supporting type",
-        "summary": "Use Source Sans 3 for paragraphs, schedules, fields and status text. Body and inputs stay at least 16 px, navigation 14 px and secondary labels 12 px.",
-        "examples": [
-          {
-            "title": "Yoga suave",
-            "text": "Inicial · 60 min · $30.000 COP · Tarifa ilustrativa"
-          },
-          {
-            "title": "Readable data",
-            "text": "Align schedule times and occupancy figures consistently. Use tabular numerals for comparisons without shrinking explanatory labels."
-          }
-        ],
-        "id": "brand-page-20",
-        "layout": "type"
-      },
-      {
-        "title": "Hierarchy",
-        "summary": "Order each view as context, main decision, specification and action. Use a compact 36/24/16/12 px scale on phone; private references remain secondary to human-readable results.",
-        "examples": [
-          {
-            "title": "Reserva confirmada",
-            "text": "Tu cupo está confirmado. Consulta los detalles y el estado vigente en Mis clases."
-          },
-          {
-            "title": "Result hierarchy",
-            "text": "Lead with Reserva confirmada, then the saved class details, then Mis clases. Place the private reference below at secondary size."
-          }
-        ],
-        "id": "brand-page-21",
-        "layout": "type"
-      },
-      {
-        "title": "Layouts",
-        "summary": "Use an 8/16/24/40/64 px spacing rhythm and broad horizontal planes. Keep forms in normal flow; interior pages use compact scenes, never a repeated full-height hero.",
-        "examples": [
-          {
-            "title": "Reserva tu espacio",
-            "text": "Revisa tu sesión y completa tus datos."
-          },
-          {
-            "title": "390 × 640 study",
-            "text": "Budget about 52 px for header, 44 for title, 128 for scene, 100 for the shared base and 120 for the first field group."
-          },
-          {
-            "title": "Continuous composition",
-            "text": "Place the selected class above its fields with a 24 px gap. Avoid split heroes, repeated cards and floating action docks."
-          }
-        ],
-        "id": "brand-page-22",
-        "layout": "applications"
-      },
-      {
-        "title": "Colors",
-        "summary": "Use Lima as the chapter field and Tinta for its title. Introduce the palette with one broad Hoja band rather than equal-size decorative swatches.",
-        "examples": [
-          {
-            "title": "Una base compartida",
-            "text": "Niebla opens the space; Hoja anchors it; Lima draws attention to the next deliberate action."
-          },
-          {
-            "title": "Divider composition",
-            "text": "Keep the Raíz symbol on Niebla and reserve the largest uninterrupted area for Lima."
-          }
-        ],
-        "id": "brand-page-23",
-        "layout": "divider"
-      },
-      {
-        "title": "Colors overview",
-        "summary": "Preserve all six supplied tokens. Niebla is the background, Hoja the surface, Lima the accent, Tinta the text and Jade the muted role; Advertencia is an additional semantic token.",
-        "examples": [
-          {
-            "title": "Core planes",
-            "text": "Niebla #F3F6F2 · Hoja #173E35 · Lima #D5E69A. Use Niebla for reading areas and Hoja for the shared action base."
-          },
-          {
-            "title": "Text and states",
-            "text": "Tinta #192621 · Jade #347264 · Advertencia #944219. Pair warnings with explicit text, never color alone."
-          },
-          {
-            "title": "Action pairing",
-            "text": "Confirmar reserva uses Tinta on Lima. On Hoja surfaces, use Niebla for supporting text rather than muted Jade."
-          }
-        ],
-        "id": "brand-page-24",
-        "layout": "colors"
-      },
-      {
-        "title": "Using Tints",
-        "summary": "Keep semantic colors at their exact hex values. Restrict transparent Jade decoration to Niebla fields; text, focus indicators and control borders must retain readable contrast.",
-        "examples": [
-          {
-            "title": "Quiet rhythm",
-            "text": "A 12% Jade breathing line may sit behind an empty margin, not behind Yoga suave or any input label."
-          },
-          {
-            "title": "Control distinction",
-            "text": "Use a solid Jade border around a Niebla field. A Lima button on Niebla needs a contrasting boundary, not a pale tint alone."
-          }
-        ],
-        "id": "brand-page-25",
-        "layout": "colors"
-      },
-      {
-        "title": "Graphic Elements",
-        "summary": "Extend the open bands into a horizontal conceptual scene with a vector mat. Keep the base fixed when selection changes; move bands for 280 ms, or apply changes instantly with reduced motion.",
-        "examples": [
-          {
-            "title": "Yoga references",
-            "text": "Yoga suave uses broad, spaced waves. Yoga fluido uses one continuous trajectory. Neither diagram gives anatomical instructions."
-          },
-          {
-            "title": "Pilates references",
-            "text": "Pilates fundamentos uses parallel support lines. Pilates control uses precise intervals. Preserve each class’s reference throughout booking."
-          },
-          {
-            "title": "Motion restraint",
-            "text": "Use one brief entrance and selective reveals. Keyboard selection gets the same result; no ambient loops or directed scrolling."
-          }
-        ],
-        "id": "brand-page-26",
-        "layout": "divider"
-      },
-      {
-        "title": "Icons",
-        "summary": "Use simple 24 px line icons with consistent 2 px strokes. Pair transactional icons with labels, provide 44 px targets and keep decorative breathing lines out of the control vocabulary.",
-        "examples": [
-          {
-            "title": "Schedule controls",
-            "text": "Pair a left arrow with Semana anterior and a right arrow with Semana siguiente. Give icon-only mobile controls equivalent accessible names."
-          },
-          {
-            "title": "State distinction",
-            "text": "Reserva confirmada uses a check and text; En espera uses a clock and text. Never identify these states by green versus orange alone."
-          }
-        ],
-        "id": "brand-page-27",
-        "layout": "content"
-      },
-      {
-        "title": "Photography",
-        "summary": "This project uses no photographs or image files. Replace photographic roles with conceptual SVG diagrams, color planes and typographic instructor plates; do not show portrait placeholders.",
-        "examples": [
-          {
-            "title": "Instructor plate",
-            "text": "Ana · Ver sesiones — use the name and a derived curve, with no portrait, biography or invented credential."
-          },
-          {
-            "title": "Practice scene",
-            "text": "A simplified vector mat sits inside the breathing field. It represents a practice concept, not the layout of a real studio."
-          }
-        ],
-        "id": "brand-page-28",
-        "layout": "applications"
-      },
-      {
-        "title": "Moodboard",
-        "summary": "Build a material board from the proposed system itself, not borrowed wellness photography. The image-free direction is an adaptation to this project’s constraints, not an approved external reference.",
-        "examples": [
-          {
-            "title": "Selected direction",
-            "text": "Líneas de respiración: open bands, a fixed base, Manrope headlines, Source Sans 3 details and a Niebla field."
-          },
-          {
-            "title": "Contrast references",
-            "text": "Atlas corporal suggests mapping; patio de luz suggests planes and voids. Keep these as process concepts, not alternate public identities."
-          },
-          {
-            "title": "Exclude",
-            "text": "No cream/serif/terracotta wellness formula, posed bodies, stock foliage, imitation interiors or image-loading states."
-          }
-        ],
-        "id": "brand-page-29",
-        "layout": "applications"
-      },
-      {
-        "title": "Applications",
-        "summary": "Design studies: carry the same base, open geometry and concise Spanish across each format. These layouts propose applications; they do not establish implemented features or real merchandise.",
-        "examples": [
-          {
-            "title": "Una práctica, un siguiente paso",
-            "text": "Explora las clases, consulta el horario y revisa tu elección."
-          },
-          {
-            "title": "Family resemblance",
-            "text": "Every study uses one dominant message, a stable lower alignment and the complete Raíz identity with clear space."
-          }
-        ],
-        "id": "brand-page-30",
-        "layout": "divider"
-      },
-      {
-        "title": "Social media icons",
-        "summary": "Design study: use the unchanged Hoja symbol on Niebla for avatars. Keep both tips inside circular crops; never replace the geometry with an R or shrink a descriptor into the icon.",
-        "examples": [
-          {
-            "title": "Raíz",
-            "text": "Yoga y pilates · Encuentra tu práctica"
-          },
-          {
-            "title": "Avatar composition",
-            "text": "Center the full square SVG canvas within the avatar. Leave its internal breathing space intact and keep the name in the adjacent profile label."
-          }
-        ],
-        "id": "brand-page-31",
-        "layout": "logo"
-      },
-      {
-        "title": "Social media profiles",
-        "summary": "Design study: pair the symbol avatar with a short Spanish bio and an open-band header. Do not fabricate a handle, follower count, contact channel or active social account.",
-        "examples": [
-          {
-            "title": "Encuentra tu práctica",
-            "text": "Yoga y pilates en Cali. Consulta clases, niveles y horarios."
-          },
-          {
-            "title": "Profile structure",
-            "text": "Use Raíz as the display name. Align the header’s open field with the bio; link to the planned website only when its destination exists."
-          }
-        ],
-        "id": "brand-page-32",
-        "layout": "applications"
-      },
-      {
-        "title": "Instagram posts",
-        "summary": "Design study: use typographic posts with one class per frame. Put the practice diagram above a stable information base; show illustrative prices without suggesting single-class checkout.",
-        "examples": [
-          {
-            "title": "Yoga suave",
-            "text": "Inicial · 60 min · $30.000 COP. Tarifa ilustrativa; las reservas utilizan créditos de paquetes."
-          },
-          {
-            "title": "Pilates control",
-            "text": "Intermedio · 50 min · $35.000 COP. Encuentra sus sesiones en el horario."
-          },
-          {
-            "title": "Post grid",
-            "text": "Use a 40 px inset on a 1080 px square. Keep class name, metadata and action in the same positions across the series."
-          }
-        ],
-        "id": "brand-page-33",
-        "layout": "applications"
-      },
-      {
-        "title": "Posters",
-        "summary": "Design study: give one headline the upper field and one practice reference the center. Anchor the action below the illustration; omit unprovided addresses, dates and QR destinations.",
-        "examples": [
-          {
-            "title": "Vuelve a tu raíz",
-            "text": "Yoga y pilates. Consulta las clases y encuentra tu próxima sesión."
-          },
-          {
-            "title": "Poster composition",
-            "text": "Use Niebla with Tinta type, a Hoja lower band and one Lima action area reading Ver horario. Keep Raíz separate from the headline."
-          }
-        ],
-        "id": "brand-page-34",
-        "layout": "applications"
-      },
-      {
-        "title": "T shirts and totes",
-        "summary": "Design study: use a single Hoja print on a Niebla-colored field. Preserve open geometry at production scale; these are identity studies, not products offered for sale.",
-        "examples": [
-          {
-            "title": "Vuelve a tu raíz",
-            "text": "Raíz · Yoga y pilates"
-          },
-          {
-            "title": "Placement study",
-            "text": "Place the symbol alone on the chest or tote center. Put the typeset name in a separate lower position, outside the symbol safezone."
-          }
-        ],
-        "id": "brand-page-35",
-        "layout": "applications"
-      },
-      {
-        "title": "Practice materials",
-        "summary": "Design study: adapt the packaging chapter to a printed class-information sleeve. Use a practice rhythm and clear metadata; do not imply merchandise, bundled equipment or anatomical guidance.",
-        "examples": [
-          {
-            "title": "Pilates fundamentos",
-            "text": "Inicial · 50 min · $30.000 COP · Tarifa ilustrativa"
-          },
-          {
-            "title": "Sleeve composition",
-            "text": "Run parallel Jade lines above a Hoja base. Place Raíz on a Niebla support and the class specification on the reverse."
-          }
-        ],
-        "id": "brand-page-36",
-        "layout": "applications"
-      },
-      {
-        "title": "Studio arrival",
-        "summary": "Design study: adapt pickup guidance to arrival and room orientation. Give each room a clear name and capacity; show no invented address, reception promise or map.",
-        "examples": [
-          {
-            "title": "Encuentra tu sala",
-            "text": "Consulta la sala asignada en los detalles de tu reserva."
-          },
-          {
-            "title": "Semilla",
-            "text": "Capacidad de sala: 10 cupos."
-          },
-          {
-            "title": "Brote",
-            "text": "Capacidad de sala: 8 cupos. Use equal-size room labels and keep capacity subordinate to the name."
-          }
-        ],
-        "id": "brand-page-37",
-        "layout": "applications"
-      },
-      {
-        "title": "Reservation controls",
-        "summary": "Design study for /reservar: use 44 px targets, 0.5rem corners and persistent labels. Review replaces editable controls with one specification. The final verb must distinguish booking from waiting.",
-        "examples": [
-          {
-            "title": "Confirmar reserva",
-            "text": "Se descontará un crédito al confirmar tu cupo."
-          },
-          {
-            "title": "Entrar en espera",
-            "text": "La sesión está llena. Entrar en espera no consume créditos ni confirma un cupo."
-          },
-          {
-            "title": "Review behavior",
-            "text": "Revisar preserves values and focuses the first error. A changed session requires explicit review; never switch the class or confirm optimistically."
-          }
-        ],
-        "id": "brand-page-38",
-        "layout": "applications"
-      },
-      {
-        "title": "Reservation record",
-        "summary": "Design study for /confirmacion: display only the authorized server result. Lead with its exact outcome, retain the saved specification and separate later operational changes from the original record.",
-        "examples": [
-          {
-            "title": "Reserva confirmada",
-            "text": "Tu cupo está confirmado. Consulta la especificación guardada y el estado vigente en Mis clases."
-          },
-          {
-            "title": "Estás en espera",
-            "text": "Aún no tienes un cupo. Tu entrada en espera no ha descontado créditos."
-          },
-          {
-            "title": "Paquete acreditado",
-            "text": "Tus clases se han acreditado. El pago presencial sigue pendiente."
-          }
-        ],
-        "id": "brand-page-39",
-        "layout": "applications"
-      },
-      {
-        "title": "Class balance",
-        "summary": "Design study for /mis-clases: replace rewards-card language with real package credits. Separate balance, pending payment, reservations and waiting; never imply points, membership or added expiry.",
-        "examples": [
-          {
-            "title": "Tu saldo de clases",
-            "text": "Cada reserva confirmada utiliza un crédito. La espera no lo descuenta."
-          },
-          {
-            "title": "Cancelar reserva",
-            "text": "Antes del inicio puedes cancelar y recuperar un crédito. Confirma la cancelación para liberar tu cupo."
-          },
-          {
-            "title": "Updated states",
-            "text": "Show server-derived amounts only. Refresh promotions in Mis clases; leaving the waitlist changes no balance and sends no external notification."
-          }
-        ],
-        "id": "brand-page-40",
-        "layout": "applications"
-      },
-      {
-        "title": "Studio sign",
-        "summary": "Design study: adapt restaurant signage to a yoga and pilates studio. Use the horizontal Raíz lockup with a small descriptor; keep the symbol on Niebla when the sign field is Hoja.",
-        "examples": [
-          {
-            "title": "Raíz",
-            "text": "Yoga y pilates"
-          },
-          {
-            "title": "Sign hierarchy",
-            "text": "Make Raíz readable before the descriptor. Use flat palette colors and clear space; show no invented facade, street number or opening hours."
-          }
-        ],
-        "id": "brand-page-41",
-        "layout": "applications"
-      },
-      {
-        "title": "Booking website",
-        "summary": "Design study: connect the nine planned screens through one selection and stable navigation. Availability and private results require real persistence; on data failure, show recovery rather than fabricated success.",
-        "examples": [
-          {
-            "title": "Ver horario y reservar",
-            "text": "Consulta las sesiones por disciplina, nivel e instructora. Las clases llenas siguen visibles con opción de espera."
-          },
-          {
-            "title": "Public route family",
-            "text": "/, /clases, /horario, /instructoras, /paquetes and /mis-clases form the public navigation. Keep /duena discreet and its records private."
-          },
-          {
-            "title": "Decision route family",
-            "text": "/reservar and /confirmacion also serve their identifier-based links. Preserve context; Dueña groups occupancy, attendees, waiting, schedule and collections."
-          }
-        ],
-        "id": "brand-page-42",
-        "layout": "applications"
-      },
-      {
-        "title": "Favicon",
-        "summary": "Design study: derive favicon and app icons from the same master SVG, not a redrawn miniature. Use a Niebla support and preserve the full opening; omit all wordmark text.",
-        "examples": [
-          {
-            "title": "Raíz — Vuelve a tu raíz",
-            "text": "Encuentra clases de yoga y pilates y consulta el horario."
-          },
-          {
-            "title": "Small-size treatment",
-            "text": "Use the complete 160 × 160 geometry for app/icon.svg and related icons. Center it consistently; do not thicken one branch or close the opening."
-          }
-        ],
-        "id": "brand-page-43",
-        "layout": "logo"
-      },
-      {
-        "title": "Stationery",
-        "summary": "Design study: use a restrained header and a lower breathing-line rule. Keep body copy in Source Sans 3 with generous margins; never decorate a document with invented legal or contact details.",
-        "examples": [
-          {
-            "title": "Una práctica con claridad",
-            "text": "Clases, horarios y detalles de tu selección."
-          },
-          {
-            "title": "Document layout",
-            "text": "Place Raíz at upper left, the document title 40 px below and a small Hoja base near the footer. Keep the main reading field Niebla."
-          }
-        ],
-        "id": "brand-page-44",
-        "layout": "applications"
-      },
-      {
-        "title": "Business cards",
-        "summary": "Design study: make a contact-free introduction card until real contact details are supplied. Use Raíz on the front and the four instructor names on the reverse without credentials or job titles.",
-        "examples": [
-          {
-            "title": "Conoce a las instructoras",
-            "text": "Ana · Lucía · Sara · Valentina"
-          },
-          {
-            "title": "Two-sided composition",
-            "text": "Front: complete lockup on Niebla. Reverse: four names in a compact typographic column, with /instructoras as a planned website destination."
-          }
-        ],
-        "id": "brand-page-45",
-        "layout": "applications"
-      },
-      {
-        "title": "Package card",
-        "summary": "Design study: replace gift-card mechanics with the planned package comparison. Align 4, 8 and 12 credits on one horizontal scale; do not imply gifting, transfer, expiry or online payment.",
-        "examples": [
-          {
-            "title": "Paquetes para tu práctica",
-            "text": "4 clases · $110.000 COP / 8 clases · $200.000 COP / 12 clases · $270.000 COP. Precios ilustrativos."
-          },
-          {
-            "title": "Paga en el estudio",
-            "text": "La compra acredita tus clases de inmediato y deja el pago presencial pendiente. Los créditos no tienen caducidad añadida."
-          },
-          {
-            "title": "Review composition",
-            "text": "After selection, show only the chosen quantity, server-authorized price and Comprar paquete. Recording payment must not imply a second credit allocation."
-          }
-        ],
-        "id": "brand-page-46",
-        "layout": "applications"
-      },
-      {
-        "title": "Materials seal",
-        "summary": "Design study: adapt the packaging seal to a paper-band closure for studio information. Use the symbol as identification, never as a certification, quality award or proof of payment.",
-        "examples": [
-          {
-            "title": "Raíz",
-            "text": "Encuentra tu práctica"
-          },
-          {
-            "title": "Seal construction",
-            "text": "Use a Niebla square support on a Hoja paper band. Center the unchanged symbol with its safezone; place any descriptive copy outside the seal."
-          }
-        ],
-        "id": "brand-page-47",
-        "layout": "applications"
-      },
-      {
-        "title": "Customer support",
-        "summary": "Design study: provide recovery beside the affected action, not an invented support channel. Preserve selection after errors; use calm text, linked field errors and deliberate status announcements.",
-        "examples": [
-          {
-            "title": "Consulta el estado",
-            "text": "No sabemos aún si la operación se completó. Consulta su resultado antes de iniciar otra compra o reserva."
-          },
-          {
-            "title": "Abre el sitio directamente",
-            "text": "No pudimos mantener tu sesión aquí. Abre el sitio directamente para continuar; el catálogo público sigue disponible."
-          },
-          {
-            "title": "Conservamos tu selección",
-            "text": "La disponibilidad cambió. Revisa esta sesión antes de continuar o elige otra de forma explícita."
-          }
-        ],
-        "id": "brand-page-48",
-        "layout": "applications"
-      },
-      {
-        "title": "Thank you",
-        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
-        "examples": [
-          {
-            "title": "Vuelve a tu raíz",
-            "text": "Una base compartida para explorar, elegir y revisar."
-          },
-          {
-            "title": "Source list",
-            "text": "User-supplied Raíz plan: name, Cali context, catalog, policies, palette and motif. Supplied font resources: Manrope and Source Sans 3."
-          },
-          {
-            "title": "Colophon",
-            "text": "Original proposed symbol; separately typeset name. No public identity sources or external imagery used. Preserve the geometry and distinguish every transactional state."
-          }
-        ],
-        "id": "brand-page-49",
-        "layout": "cover"
-      }
-    ]
-  }
+    "positioning": "Estudio ficticio de yoga y pilates en Cali para encontrar una práctica consciente y reservar con claridad. Cuatro clases de ejemplo, dos salas y cuatro instructoras ficticias; una experiencia cercana sin credenciales, contactos o promesas inventadas.",
+    "researchStatus": "not_requested",
+    "tokenSemanticsVersion": 1
+  },
+  "textColor": "#192621",
+  "accentColor": "#D5E69A",
+  "fontHeading": "Manrope",
+  "borderRadius": "0.5rem",
+  "logoImageUrl": null,
+  "primaryColor": "#D5E69A",
+  "secondaryColor": "#173E35",
+  "backgroundColor": "#F3F6F2"
 }
