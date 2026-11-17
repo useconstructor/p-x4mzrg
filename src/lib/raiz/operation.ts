@@ -1,0 +1,13 @@
+'use client';
+import {useLayoutEffect,useRef,useState} from 'react';
+import {api,ApiError,post,type PendingOperation} from './api';
+export type OperationPhase='idle'|'pending'|'uncertain'|'absent'|'failed'|'confirmed';
+export function useOperation<R>(csrfToken:string|undefined,onSuccess:(result:R)=>void,onReject?:(error:ApiError)=>void){
+ const [phase,setPhase]=useState<OperationPhase>('idle');const [error,setError]=useState<Error|null>(null);const original=useRef<PendingOperation<Record<string,unknown>>|null>(null);const [archived,setArchived]=useState<PendingOperation<Record<string,unknown>>|null>(null);const busy=useRef(false);const success=useRef(onSuccess);const rejection=useRef(onReject);useLayoutEffect(()=>{success.current=onSuccess;rejection.current=onReject},[onSuccess,onReject]);
+ async function send(request:PendingOperation<Record<string,unknown>>){if(busy.current||!csrfToken)return;busy.current=true;original.current=request;setPhase('pending');setError(null);try{const result=await post<R>(request.path,request.payload,csrfToken,request.key);setPhase('confirmed');success.current(result)}catch(e){const err=e as Error;setError(err);if(e instanceof ApiError&&e.status>=400&&e.status<500){setPhase('failed');rejection.current?.(e)}else setPhase('uncertain')}finally{busy.current=false}}
+ function start(path:string,operation:string,payload:Record<string,unknown>){if(busy.current||['uncertain','pending','absent'].includes(phase))return;void send({path,operation,payload:structuredClone(payload),key:crypto.randomUUID()})}
+ async function reconcile(request=original.current){if(!request||busy.current)return;busy.current=true;setPhase('pending');setError(null);try{const result=await api<{status:'confirmed';result:R}|{status:'pending'|'absent'}>(`/api/operaciones?key=${request.key}&operation=${request.operation}`);original.current=request;if(result.status==='confirmed'){setPhase('confirmed');success.current(result.result)}else setPhase(result.status==='absent'?'absent':'uncertain')}catch(e){setError(e as Error);setPhase('uncertain')}finally{busy.current=false}}
+ function newIntent(){if(busy.current)return;if(original.current)setArchived(original.current);original.current=null;setPhase('idle');setError(null)}
+ function resetRejected(){if(phase==='failed'||phase==='confirmed'){setPhase('idle');setError(null);original.current=null}}
+ return {phase,error,archived,start,reconcile:()=>void reconcile(),recoverArchived:()=>{if(archived)void reconcile(archived)},retryOriginal:()=>{if(phase==='absent'&&original.current)void send(original.current)},newIntent,resetRejected,unresolved:phase==='pending'||phase==='uncertain'||phase==='absent'};
+}

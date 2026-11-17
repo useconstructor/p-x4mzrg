@@ -1,0 +1,271 @@
+/* Keep recovery controls in the same readable, unbroken flow as the draft. */
+.error-box > div,
+.error-content,
+.flow-state,
+.flow-state .inline-status {
+  min-width: 0;
+}
+
+.error-box > svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.error-box .actions {
+  max-width: 100%;
+  margin-top: 16px;
+  gap: 12px 16px;
+}
+
+.error-box .button,
+.error-box .text-link,
+.flow-state .inline-status .button,
+.flow-state .inline-status .text-link {
+  min-width: 44px;
+  min-height: 44px;
+  max-width: 100%;
+  white-space: normal;
+}
+
+.error-box .button {
+  overflow-wrap: normal;
+}
+
+.error-box .button-primary:not(:disabled) {
+  color: var(--brand-text);
+}
+
+.session-recovery > p {
+  margin-top: 8px;
+}
+
+.session-reset {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid color-mix(in srgb, var(--brand-warning) 28%, transparent);
+}
+
+.session-reset .text-link {
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.conflict-availability {
+  margin-top: 12px;
+}
+
+/* The saved specification leads; current account information stays compact. */
+.confirmation-saved {
+  border-top: 1px solid var(--brand-muted);
+  padding-top: 16px;
+}
+
+.confirmation-saved .detail-grid {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin-top: 8px;
+  gap: 12px 24px;
+}
+
+.confirmation-current {
+  border-top: 1px solid var(--brand-muted);
+  margin-top: 16px;
+  padding-top: 8px;
+}
+
+.confirmation-status-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px 20px;
+}
+
+.confirmation-status-row > p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.confirmation-status-row .text-link {
+  min-height: 44px;
+}
+
+.confirmation-current.current-changed {
+  border-top: 2px solid var(--brand-surface);
+}
+
+.confirmation-change-note {
+  margin-top: 4px;
+  color: var(--brand-muted);
+}
+
+.confirmation-balances.detail-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 24px;
+  margin-top: 8px;
+}
+
+.confirmation-balances dt {
+  margin-bottom: 2px;
+}
+
+.confirmation-reference {
+  border-top: 1px solid color-mix(in srgb, var(--brand-muted) 35%, transparent);
+  margin-top: 16px;
+}
+
+.confirmation-reference summary {
+  min-height: 44px;
+  padding-block: 12px;
+  color: var(--brand-muted);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.confirmation-reference p {
+  overflow-wrap: anywhere;
+}
+
+.confirmation-reference p + p {
+  margin-top: 4px;
+}
+
+/* One review row follows the selected credit rhythm and shared action base. */
+.purchase-flow .review-spec {
+  padding-block: 20px;
+}
+
+.purchase-flow .review-spec .detail-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 0;
+  gap: 24px;
+}
+
+.purchase-flow .review-spec + .policy {
+  margin-top: 0;
+}
+
+.purchase-submit-label {
+  display: grid;
+}
+
+.purchase-submit-label > span {
+  grid-area: 1 / 1;
+}
+
+.purchase-submit-label > [aria-hidden="true"] {
+  visibility: hidden;
+}
+
+.roster-notice {
+  padding-top: 0;
+  padding-bottom: 24px;
+}
+
+@media (min-width: 601px) and (max-width: 1023px) {
+  .instructor-roster {
+    display: block;
+  }
+
+  .instructor-plate {
+    min-height: 220px;
+    border-right: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .instructor-plate:nth-child(even) .instructor-name {
+    grid-column: 2;
+    text-align: right;
+  }
+
+  .instructor-plate:nth-child(even) .instructor-availability {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .instructor-plate:nth-child(odd) .instructor-availability {
+    justify-self: end;
+    align-self: end;
+  }
+
+  .instructor-plate:nth-child(even) .instructor-availability {
+    align-self: start;
+  }
+
+  .instructor-plate > .instructor-curve {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .25;
+  }
+}
+
+@media (max-width: 767px) {
+  .schedule-page .selected-filter {
+    padding-block: 8px;
+  }
+
+  .schedule-page .calendar-layout .agenda-day {
+    margin-top: 12px;
+  }
+
+  .schedule-page .calendar-layout .session-row {
+    grid-template-columns: 110px minmax(0, 1fr);
+    gap: 8px 16px;
+    padding-block: 16px;
+  }
+
+  .schedule-page .calendar-layout .row-action {
+    grid-column: 1;
+    grid-row: 2 / 4;
+    align-self: start;
+  }
+
+  .schedule-page .calendar-layout .row-action .button {
+    width: 110px;
+    padding: 10px 8px;
+    gap: 6px;
+    font-size: 14px;
+  }
+
+  .purchase-flow .review-title {
+    margin-bottom: 16px;
+  }
+
+  .purchase-flow .review-spec {
+    padding-block: 16px;
+  }
+
+  .purchase-flow .review-spec .detail-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .error-box .actions .button {
+    padding-inline: 12px;
+    gap: 8px;
+  }
+
+  .error-box .recovery-actions {
+    gap: 4px 12px;
+  }
+
+  .confirmation-saved {
+    padding-top: 12px;
+  }
+
+  .confirmation-saved .detail-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 16px;
+  }
+
+  .confirmation-status-row {
+    gap: 8px 12px;
+  }
+
+  .confirmation-status-row .text-link {
+    font-size: 14px;
+  }
+}

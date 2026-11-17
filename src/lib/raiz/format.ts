@@ -1,0 +1,8 @@
+export const money = (value:number) => new Intl.NumberFormat('es-CO',{style:'currency',currency:'COP',maximumFractionDigits:0}).format(value)+' COP';
+export const date = (value:string, options:Intl.DateTimeFormatOptions = {weekday:'long',day:'numeric',month:'long'}) => new Intl.DateTimeFormat('es-CO',{...options,timeZone:'America/Bogota'}).format(new Date(value));
+export const time = (value:string) => date(value,{hour:'2-digit',minute:'2-digit',hour12:false});
+export function bogotaDay(value = new Date()) { return new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bogota',year:'numeric',month:'2-digit',day:'2-digit'}).format(value); }
+export function monday(value=bogotaDay()) { const d=new Date(value+'T12:00:00Z'); d.setUTCDate(d.getUTCDate()-((d.getUTCDay()+6)%7));return d.toISOString().slice(0,10); }
+export function moveWeek(value:string, delta:number) { const d=new Date(value+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+delta*7);return d.toISOString().slice(0,10); }
+export function safeReturn(value:string|null) { if(!value)return null;try{const u=new URL(value,'https://raiz.invalid');if(u.origin!=='https://raiz.invalid'||u.hash)return null;const id=u.searchParams.get('sesion');return u.pathname==='/reservar'&&id&&/^[\w-]{1,100}$/.test(id)&&[...u.searchParams.keys()].every(k=>k==='sesion')?u.pathname+u.search:null;}catch{return null;} }
+export const statusLabel = (status:string) => ({confirmed:'Confirmada',cancelled:'Cancelada',waiting:'En espera',promoted:'Cupo asignado',left:'Espera abandonada',closed:'Espera cerrada',pending:'Pago presencial pendiente',paid:'Pagado',active:'Activa'}[status]||status);

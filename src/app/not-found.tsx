@@ -1,0 +1,2 @@
+import {ActionLink,PageHeading} from '@/components/raiz/common';
+export default function NotFound(){return <div className="shell"><PageHeading title="Este camino no está disponible"><p>No encontramos la página que buscas. Puedes volver a las clases o consultar el horario.</p></PageHeading><div className="actions"><ActionLink href="/clases">Explorar clases</ActionLink><ActionLink href="/horario" secondary>Ver horario</ActionLink></div></div>}

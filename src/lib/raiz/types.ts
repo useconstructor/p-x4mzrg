@@ -1,0 +1,17 @@
+export type Practice = {id:string;name:string;discipline:'yoga'|'pilates';level:string;durationMinutes:number;priceCOP:number;diagramKey:string;presentationVersion:number;version:number};
+export type Instructor = {id:string;name:string};
+export type Room = {id:string;name:string;capacity:number};
+export type Package = {id:string;credits:number;priceCOP:number;version:number};
+export type Catalog = {classes:Practice[];instructors:Instructor[];rooms:Room[];packages:Package[];timeZone:string};
+export type Session = {id:string;classId:string;instructorId:string;roomId:string;startsAt:string;endsAt:string;capacity:number;status:'active'|'cancelled';version:number;occupied:number;available:number;waitCount:number;class:Practice;instructor:Instructor;room:Room};
+export type Schedule = {weekStart:string;serverNow:string;timeZone:string;sessions:Session[]};
+export type SavedSession = {id:string;classId:string;className:string;discipline:'yoga'|'pilates';level:string;durationMinutes:number;priceCOP:number;diagramKey:string;presentationVersion:number;instructorId:string;instructorName:string;roomId:string;roomName:string;startsAt:string;endsAt:string};
+export type Snapshot = {kind:'purchase'|'reservation'|'wait';name:string;phone:string;package?:{id:string;credits:number;priceCOP:number};session?:SavedSession;createdAt:string};
+export type Result = {reference:string;kind:'purchase'|'reservation'|'wait';originalOutcome:'credited'|'confirmed'|'waiting';snapshot:Snapshot;currentStatus:string;version:number;balance:number;debtCOP:number};
+export type OwnedRecord = {id:string;reference?:string;status:string;paymentStatus?:string;version:number;snapshot:Snapshot;createdAt:string;credits?:number;priceCOP?:number;session?:Session};
+export type MyClasses = {balance:number;debtCOP:number;serverNow:string;reservations:OwnedRecord[];waits:OwnedRecord[];purchases:OwnedRecord[]};
+export type VisitorSession = {established:true;csrfToken:string;profile:{name:string;phone:string}|null};
+export type OwnerSession = {configured:boolean;authenticated:boolean;csrfToken?:string};
+export type AdminResult = {entityType:'session'|'purchase';entityId:string;version:number;status:string;refundedCredits?:number;closedWaitCount?:number};
+export type Attendee = {id:string;name:string;phone:string;status:string;createdAt:string};
+export type OwnerDetail = {session:Session;attendees:Attendee[];waits:Attendee[]};
